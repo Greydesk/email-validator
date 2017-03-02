@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	App validator = new App();
+    	int result = validator.main("rod.naugler@gmail.com");
+    	assertEquals( 2,result );
     }
 }

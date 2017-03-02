@@ -6,8 +6,10 @@ package com.example.email_validator;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static int main( String email )
     {
+    	int passed = 0;
         System.out.println( "Hello World!" );
+        return passed;
     }
 }
