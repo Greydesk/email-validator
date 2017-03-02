@@ -33,8 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-    	App validator = new App();
-    	int result = validator.main("rod.naugler@gmail.com");
+    	String testEmail = new String("rod.naugler@gmail.com");
+    	int result = App.main(testEmail);
     	assertEquals( 2,result );
     }
 }
