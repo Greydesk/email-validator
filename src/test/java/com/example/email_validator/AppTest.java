@@ -35,6 +35,6 @@ public class AppTest
     {
     	String testEmail = new String("rod.naugler@gmail.com");
     	int result = App.main(testEmail);
-    	assertEquals( 2,result );
+    	assertEquals( 3,result );
     }
 }
